@@ -1,3 +1,51 @@
 @import url(./reset.css);
 @import url(./variaveis.css);
 @import url(./all.css);
+
+body{
+    background-color: rgb(221, 221, 221);
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteudo{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartao{
+    display: flex;
+    width: 655px;
+    background-color: white;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.titulo-principal{
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.pergunta{
+    margin: 20px 0;
+}
+
+.cabecalho{
+    display: flex;
+}
+
+.titulo-secundario{
+    margin-right: 20px;
+}
+
+.seta{
+    margin-left: auto;
+}
+
+.texto{
+    margin-top: 15px;
+    display: none;
+}
